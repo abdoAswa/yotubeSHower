@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A618151627257E290064277E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618151527257E290064277E /* AppDelegate.swift */; };
+		A618151827257E290064277E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618151727257E290064277E /* SceneDelegate.swift */; };
+		A618151A27257E290064277E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618151927257E290064277E /* ViewController.swift */; };
+		A618151D27257E290064277E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A618151B27257E290064277E /* Main.storyboard */; };
+		A618151F27257E2A0064277E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A618151E27257E2A0064277E /* Assets.xcassets */; };
+		A618152227257E2A0064277E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A618152027257E2A0064277E /* LaunchScreen.storyboard */; };
+		A618152D27257E2A0064277E /* yotubeSHowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618152C27257E2A0064277E /* yotubeSHowerTests.swift */; };
+		A618153827257E2A0064277E /* yotubeSHowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618153727257E2A0064277E /* yotubeSHowerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A618152927257E2A0064277E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A618150A27257E290064277E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A618151127257E290064277E;
+			remoteInfo = yotubeSHower;
+		};
+		A618153427257E2A0064277E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A618150A27257E290064277E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A618151127257E290064277E;
+			remoteInfo = yotubeSHower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A618151227257E290064277E /* yotubeSHower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yotubeSHower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A618151527257E290064277E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A618151727257E290064277E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A618151927257E290064277E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A618151C27257E290064277E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A618151E27257E2A0064277E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A618152127257E2A0064277E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A618152327257E2A0064277E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A618152827257E2A0064277E /* yotubeSHowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yotubeSHowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A618152C27257E2A0064277E /* yotubeSHowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yotubeSHowerTests.swift; sourceTree = "<group>"; };
+		A618152E27257E2A0064277E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A618153327257E2A0064277E /* yotubeSHowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yotubeSHowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A618153727257E2A0064277E /* yotubeSHowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yotubeSHowerUITests.swift; sourceTree = "<group>"; };
+		A618153927257E2A0064277E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A618150F27257E290064277E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A618152527257E2A0064277E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A618153027257E2A0064277E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A618150927257E290064277E = {
+			isa = PBXGroup;
+			children = (
+				A618151427257E290064277E /* yotubeSHower */,
+				A618152B27257E2A0064277E /* yotubeSHowerTests */,
+				A618153627257E2A0064277E /* yotubeSHowerUITests */,
+				A618151327257E290064277E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A618151327257E290064277E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A618151227257E290064277E /* yotubeSHower.app */,
+				A618152827257E2A0064277E /* yotubeSHowerTests.xctest */,
+				A618153327257E2A0064277E /* yotubeSHowerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A618151427257E290064277E /* yotubeSHower */ = {
+			isa = PBXGroup;
+			children = (
+				A618151527257E290064277E /* AppDelegate.swift */,
+				A618151727257E290064277E /* SceneDelegate.swift */,
+				A618151927257E290064277E /* ViewController.swift */,
+				A618151B27257E290064277E /* Main.storyboard */,
+				A618151E27257E2A0064277E /* Assets.xcassets */,
+				A618152027257E2A0064277E /* LaunchScreen.storyboard */,
+				A618152327257E2A0064277E /* Info.plist */,
+			);
+			path = yotubeSHower;
+			sourceTree = "<group>";
+		};
+		A618152B27257E2A0064277E /* yotubeSHowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A618152C27257E2A0064277E /* yotubeSHowerTests.swift */,
+				A618152E27257E2A0064277E /* Info.plist */,
+			);
+			path = yotubeSHowerTests;
+			sourceTree = "<group>";
+		};
+		A618153627257E2A0064277E /* yotubeSHowerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A618153727257E2A0064277E /* yotubeSHowerUITests.swift */,
+				A618153927257E2A0064277E /* Info.plist */,
+			);
+			path = yotubeSHowerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A618151127257E290064277E /* yotubeSHower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A618153C27257E2A0064277E /* Build configuration list for PBXNativeTarget "yotubeSHower" */;
+			buildPhases = (
+				A618150E27257E290064277E /* Sources */,
+				A618150F27257E290064277E /* Frameworks */,
+				A618151027257E290064277E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yotubeSHower;
+			productName = yotubeSHower;
+			productReference = A618151227257E290064277E /* yotubeSHower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A618152727257E2A0064277E /* yotubeSHowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A618153F27257E2A0064277E /* Build configuration list for PBXNativeTarget "yotubeSHowerTests" */;
+			buildPhases = (
+				A618152427257E2A0064277E /* Sources */,
+				A618152527257E2A0064277E /* Frameworks */,
+				A618152627257E2A0064277E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A618152A27257E2A0064277E /* PBXTargetDependency */,
+			);
+			name = yotubeSHowerTests;
+			productName = yotubeSHowerTests;
+			productReference = A618152827257E2A0064277E /* yotubeSHowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A618153227257E2A0064277E /* yotubeSHowerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A618154227257E2A0064277E /* Build configuration list for PBXNativeTarget "yotubeSHowerUITests" */;
+			buildPhases = (
+				A618152F27257E2A0064277E /* Sources */,
+				A618153027257E2A0064277E /* Frameworks */,
+				A618153127257E2A0064277E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A618153527257E2A0064277E /* PBXTargetDependency */,
+			);
+			name = yotubeSHowerUITests;
+			productName = yotubeSHowerUITests;
+			productReference = A618153327257E2A0064277E /* yotubeSHowerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A618150A27257E290064277E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A618151127257E290064277E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A618152727257E2A0064277E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A618151127257E290064277E;
+					};
+					A618153227257E2A0064277E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A618151127257E290064277E;
+					};
+				};
+			};
+			buildConfigurationList = A618150D27257E290064277E /* Build configuration list for PBXProject "yotubeSHower" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A618150927257E290064277E;
+			productRefGroup = A618151327257E290064277E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A618151127257E290064277E /* yotubeSHower */,
+				A618152727257E2A0064277E /* yotubeSHowerTests */,
+				A618153227257E2A0064277E /* yotubeSHowerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A618151027257E290064277E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618152227257E2A0064277E /* LaunchScreen.storyboard in Resources */,
+				A618151F27257E2A0064277E /* Assets.xcassets in Resources */,
+				A618151D27257E290064277E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A618152627257E2A0064277E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A618153127257E2A0064277E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A618150E27257E290064277E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618151A27257E290064277E /* ViewController.swift in Sources */,
+				A618151627257E290064277E /* AppDelegate.swift in Sources */,
+				A618151827257E290064277E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A618152427257E2A0064277E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618152D27257E2A0064277E /* yotubeSHowerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A618152F27257E2A0064277E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618153827257E2A0064277E /* yotubeSHowerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A618152A27257E2A0064277E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A618151127257E290064277E /* yotubeSHower */;
+			targetProxy = A618152927257E2A0064277E /* PBXContainerItemProxy */;
+		};
+		A618153527257E2A0064277E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A618151127257E290064277E /* yotubeSHower */;
+			targetProxy = A618153427257E2A0064277E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A618151B27257E290064277E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A618151C27257E290064277E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A618152027257E2A0064277E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A618152127257E2A0064277E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A618153A27257E2A0064277E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A618153B27257E2A0064277E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A618153D27257E2A0064277E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yotubeSHower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswa.yotubeSHower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A618153E27257E2A0064277E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yotubeSHower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswa.yotubeSHower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A618154027257E2A0064277E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yotubeSHowerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswa.yotubeSHowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yotubeSHower.app/yotubeSHower";
+			};
+			name = Debug;
+		};
+		A618154127257E2A0064277E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yotubeSHowerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswa.yotubeSHowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yotubeSHower.app/yotubeSHower";
+			};
+			name = Release;
+		};
+		A618154327257E2A0064277E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yotubeSHowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswa.yotubeSHowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yotubeSHower;
+			};
+			name = Debug;
+		};
+		A618154427257E2A0064277E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yotubeSHowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswa.yotubeSHowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yotubeSHower;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A618150D27257E290064277E /* Build configuration list for PBXProject "yotubeSHower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A618153A27257E2A0064277E /* Debug */,
+				A618153B27257E2A0064277E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A618153C27257E2A0064277E /* Build configuration list for PBXNativeTarget "yotubeSHower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A618153D27257E2A0064277E /* Debug */,
+				A618153E27257E2A0064277E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A618153F27257E2A0064277E /* Build configuration list for PBXNativeTarget "yotubeSHowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A618154027257E2A0064277E /* Debug */,
+				A618154127257E2A0064277E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A618154227257E2A0064277E /* Build configuration list for PBXNativeTarget "yotubeSHowerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A618154327257E2A0064277E /* Debug */,
+				A618154427257E2A0064277E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A618150A27257E290064277E /* Project object */;
+}
